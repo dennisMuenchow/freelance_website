@@ -1107,12 +1107,12 @@ screen and (-ms-high-contrast: none) {
 }
 
 .tabs .nav-link.active {
-	background-color: #01a1feb1;
+	background-color: #333;
 	color: #fff;
 }
 
 .tabs .nav-link:hover {
-	background-color: #01a1fe60;
+	background-color: #333;
 	color: #fff;
 }
 
