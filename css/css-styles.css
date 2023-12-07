@@ -977,10 +977,13 @@ screen and (-ms-high-contrast: none) {
 .lightbox-basic {
 	position: relative;
 	max-width: 71.875rem;
+	max-height: 80vh;
+	overflow-y: auto;
+	overflow-x: hidden;
 	margin: 2.5rem auto;
 	padding: 3rem 1rem;
 	background-color: #fff;
-	text-align: left;
+	++text-align: left;
 	border-radius: 14px;
 }
 
